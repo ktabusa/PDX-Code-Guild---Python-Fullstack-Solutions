@@ -33,11 +33,12 @@ def test_ones_digit():
 # Write a function that takes two integers, a value and a maximum, and returns a string representing the percentage as an integer
 def percentage(v, max):
     percent = (v / max) * 100
-    rounded = round(percent, 2)
+    rounded = round(percent, 0)
+    rounded = int(rounded)
     rounded = str(rounded)
-    print(rounded + '%')
+    return (rounded + '%')
 
-def test_precentage():
+def test_percentage():
     assert percentage(1, 10) == '10%'
     assert percentage(600, 1200) == '50%'
     assert percentage(1, 3) == '33%'
