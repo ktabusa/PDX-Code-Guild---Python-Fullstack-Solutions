@@ -3,7 +3,6 @@
 # Fill in the code for each of the functions
 # Run the tests by typing "pytest 01_numbers.py"
 
-import pytest
 
 # Is Even
 # Write a function returns whether a number is even or odd (hint, compare a/2 and a//2, or use a%2)
