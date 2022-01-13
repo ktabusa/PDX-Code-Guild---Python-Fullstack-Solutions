@@ -23,3 +23,6 @@ while True:
         break
     except ValueError:
         print("please enter a valid number.\n")
+
+# https://towardsdatascience.com/all-about-python-list-comprehension-14dd979ec0d1
+# https://www.programiz.com/python-programming/list-comprehension
